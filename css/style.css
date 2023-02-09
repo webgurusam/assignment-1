@@ -14,9 +14,17 @@ h6 {
     font-weight: 700;
 }
 
+li {
+    list-style: none;
+}
+
 p,
 li {
     color: #737272;
+}
+
+.color-white {
+    color: #fff;
 }
 
 .my-130 {
@@ -31,6 +39,7 @@ li {
     border-radius: 5px;
     padding: 20px 25px;
     border: 0;
+    cursor: pointer;
 }
 
 /* Header Section Styles */
@@ -135,7 +144,8 @@ li {
     margin-bottom: 24px;
 }
 
-.call-now-btn {
+.call-now-btn,
+.subscribe-btn {
     padding-left: 35px;
     padding-right: 35px;
     color: #F15B22;
@@ -174,4 +184,44 @@ li {
 .single-skill-title {
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+/* Footer Section Styles */
+.footer {
+    background: #151414;
+    padding: 100px 200px;
+    display: flex;
+    gap: 200px;
+}
+
+.future-title {
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.future-description {
+    margin: 15px 0 24px;
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+    gap: 17px;
+    padding-top: 12px;
+}
+
+.subscribe-title {
+    font-size: 25px;
+    color: #fff;
+}
+
+input[type=email] {
+    width: 230px;
+    margin: 30px 0 15px;
+    padding: 20px 0 20px 20px;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: transparent;
 }
