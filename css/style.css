@@ -141,3 +141,37 @@ li {
     color: #F15B22;
     background-color: #ffffff;
 }
+
+/* Skills Achive Section Styles */
+.skills-achive .section-title {
+    margin-bottom: 70px;
+}
+
+.top-section-skills,
+.bottom-section-skills {
+    display: flex;
+    gap: 30px;
+}
+
+.top-section-skills {
+    margin-bottom: 50px;
+}
+
+.single-skill {
+    display: flex;
+    width: 360px;
+}
+
+.single-skill img {
+    width: 32px;
+    height: 32px;
+}
+
+.single-skill-info {
+    margin-left: 15px;
+}
+
+.single-skill-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
