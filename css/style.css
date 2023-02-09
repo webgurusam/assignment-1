@@ -96,3 +96,48 @@ li {
 .fa-check {
     margin-right: 10px;
 }
+
+/* My Plans Section Styles */
+.section-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.my-plan {
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+    margin: 55px 0 125px;
+}
+
+.single-plan {
+    text-align: center;
+}
+
+.single-plan-title {
+    margin: 24px 0 15px;
+    font-size: 30px;
+}
+
+.single-plan-description {
+    font-size: 25px;
+}
+
+.call-now {
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    padding: 84px 0px 83px 64px;
+}
+
+.call-now-title {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.call-now-btn {
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #F15B22;
+    background-color: #ffffff;
+}
